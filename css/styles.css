@@ -93,6 +93,7 @@ span {
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .button {
@@ -101,6 +102,7 @@ span {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  cursor: pointer;
 }
 .button:focus,
 .button:hover {
