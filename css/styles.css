@@ -39,7 +39,7 @@ span {
   text-decoration: none;
   }
 
-.list {
+.list, .project-list {
   list-style: none;
 }
 
@@ -123,6 +123,7 @@ span {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.63;
+  text-transform: uppercase;
   }
 
 .list p {
@@ -165,7 +166,26 @@ footer {
     text-decoration: none;
     }
 
+  .address a:focus,
+  .address a:hover {
+    color: var(--accent-color);
+
+  }
+
 
 /* Портфолио */
 
 
+.project-list .title {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  }
+
+.project-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
